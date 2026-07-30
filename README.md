@@ -16,7 +16,7 @@ If not, we clone a new pickaxe and parent it to the player's character.
 We then get the pickaxe's handle's Motor6D and stored CFrameValue.
 We then set the Motor6D's Part0 to the Right Arm of the player's character and Part1 to the pickaxe's handle.
 This allows it to go to the right arm of the player.
-We then set the Motor6D's CFrame1 value to the stored CFrameValue (moves the handle to the right position and orientation).
+We then set the Motor6D's CFrame1 value to the stored CFrameValue (moves the handle to the correct position and orientation).
 Finally, we set the _HasPickaxe to true.
 When the player dies or leaves, we destroy the pickaxe and set it to nil, and then its created again.
 
